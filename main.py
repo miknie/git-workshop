@@ -8,6 +8,8 @@ def main():
 
     print(hello_messages.HELLO_MSG)
 
+    print("Today is a day")
+
     git = the_value_of(vcs.GIT)
     svn = the_value_of(vcs.SVN)
 
