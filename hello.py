@@ -1,12 +1,12 @@
 import vcs
-import helo_messages
+import hello_messages
 import good_byes
 from vcs_values import the_value_of
 
 
 def main():
 
-    print(helo_messages.HELLO_MSG)
+    print(hello_messages.HELLO_MSG)
 
     git = the_value_of(vcs.GIT)
     svn = the_value_of(vcs.SVN)
