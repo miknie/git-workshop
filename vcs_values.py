@@ -1,4 +1,4 @@
-# Get the value of a version controll system
+# Get the value of a version control system
 
 def the_value_of(vcs_name):
     vcs_values = {'git': 42, 'svn': 13}
