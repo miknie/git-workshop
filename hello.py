@@ -1,13 +1,12 @@
 import vcs
+import helo_messages
+import good_byes
 from vcs_values import the_value_of
-
-HELLO_MSG = 'Helo and welcome!'
-GOOD_BYE_MSG = 'Good by!'
 
 
 def main():
 
-    print(HELLO_MSG)
+    print(helo_messages.HELLO_MSG)
 
     git = the_value_of(vcs.GIT)
     svn = the_value_of(vcs.SVN)
@@ -19,7 +18,7 @@ def main():
     else:
         print('Git :)')
 
-    print(GOOD_BYE_MSG)
+    print(good_byes.GOOD_BYE_MSG)
 
 
 if __name__ == '__main__':
